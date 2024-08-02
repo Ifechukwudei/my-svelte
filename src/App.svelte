@@ -1,7 +1,5 @@
 <script>
-// import Nav from './Nav.svelte';
 import Form from './lib/form.svelte';
-// import Button from './lib/button.svelte';
 import './app.css'
 </script>
 
