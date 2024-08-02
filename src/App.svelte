@@ -1,29 +1,53 @@
 <script>
 // import Nav from './Nav.svelte';
 import Form from './lib/form.svelte';
-import Button from './lib/button.svelte';
+// import Button from './lib/button.svelte';
 import './app.css'
 </script>
 
 
 <main>
     <section>
-        <h1 class="contact__title">Contact</h1>
-        <Form/>
+        <div class="text__container">
+            <h1 class="main__header">CONTACT</h1>
+            <h2 class="main__header-text">Reach Out To Us</h2>
+        </div>
+        <div class="container">
+            <Form/>
+        </div>
+
+        
     </section>
     
 </main>
 
 
 <style>
-    .contact__title{
-        color: rgb(0, 132, 255);
-    }
     section{
         display: flex;
+        flex-direction: row;
+        background-color: azure;
+    }
+    .main__header-text{
+        font-size: 48px;
+    }
+
+    .text__container{
+        width: 50%;
+        display: flex;
         justify-content: center;
-        flex-direction: column;
+        background-color: rgb(0, 132, 255);
         align-items: center;
-        margin: 10px;
+        flex-direction: column;
+
+    }
+    .container{
+        background-color: black;
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 </style>

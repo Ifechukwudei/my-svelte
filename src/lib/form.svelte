@@ -23,7 +23,7 @@
   background-color: black;
   width: 50%;
   margin: 0 auto;
-  border: 1px solid rgb(0, 132, 255);;
+  border: 1px solid rgb(0, 132, 255);
   padding: 20px;
   box-sizing: border-box;
   color: #ccc;
