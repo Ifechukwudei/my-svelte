@@ -1,3 +1,6 @@
+<script>
+  //input your javascript here
+</script>
 <form class="form" id="contact-form">
   <input type="hidden" name="contact_number">
   <label for="name">Name:</label><br />
@@ -56,5 +59,12 @@
   /* Add a hover effect to the submit button */
   form.form input[type='submit'].submit:hover {
   background-color: rgb(35, 66, 243);
+  }
+  .success-message {
+    color: white;
+  }
+
+  .error-message {
+    color: red;
   }
 </style>
